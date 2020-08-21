@@ -3,48 +3,48 @@
 /* ============================================= */
 
 .btn {
-    margin-top: 15px;
-    width: 100%;
-    color: #fff;
-    border: none;
-    padding: 10px 0;
-    text-transform: uppercase;
-    border-radius: 5px;
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.default {
+  background-color: $blue;
+  &:hover {
+      background-color: $blue-light;
   }
-  
-  .default {
-    background-color: $blue;
-    &:hover {
-       background-color: $blue-light;
-    }
+}
+
+.error {
+  background-color: $red;
+  &:hover {
+    background-color: $red-light;
   }
-  
-  .error {
-    background-color: $red;
-    &:hover {
-      background-color: $red-light;
-   }
+}
+
+.info {
+  background-color: $purple;
+  &:hover {
+    background-color: $purple-light;
   }
-  
-  .info {
-    background-color: $purple;
-    &:hover {
-      background-color: $purple-light;
-   }
+}
+
+.success {
+  background-color: $green;
+  &:hover {
+    background-color: $green-light;
   }
-  
-  .success {
-    background-color: $green;
-    &:hover {
-      background-color: $green-light;
-   }
+}
+
+.warning {
+  background-color: $orange;
+  &:hover {
+    background-color: $orange-light;
   }
-  
-  .warning {
-    background-color: $orange;
-    &:hover {
-      background-color: $orange-light;
-   }
-  }
+}
   
   
