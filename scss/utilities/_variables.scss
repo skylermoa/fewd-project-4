@@ -1,0 +1,19 @@
+// Color Variables
+
+$color-primary: #58e1c1;
+
+$blue: #51ddfc; // Light Blue
+$green: #63cc82; // Light Green
+$red: #e4757a; // Light Red
+$orange: #fd7856; // Light Orange
+$purple: #927bc1; // Light Purple
+
+$blue-light: lighten($blue, 10%);
+$green-light: lighten($green, 10%);
+$red-light: lighten($red, 10%);
+$orange-light: lighten($orange, 10%);
+$purple-light: lighten($purple, 10%);
+
+// Breakpoints
+
+$breakpoint: 768px;
